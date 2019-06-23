@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/naavigation_clock"
+        android:icon="@drawable/ic_access_time_black_24dp"
+        android:title="Clock" />
+    <item
+        android:id="@+id/naavigation_timer"
+        android:icon="@drawable/ic_timer_black_24dp"
+        android:title="Timer"/>
+    <item
+        android:id="@+id/naavigation_stopwatch"
+        android:icon="@drawable/ic_timelapse_black_24dp"
+        android:title="Stopwatch" />
+</menu>

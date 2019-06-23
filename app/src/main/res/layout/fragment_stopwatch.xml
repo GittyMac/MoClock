@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#212121">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:paddingTop="45dp"
+        android:text="Stopwatch"
+        android:textColor="@android:color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <Chronometer
+        android:id="@+id/chronometert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="60sp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/sws"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="260dp"
+        android:background="#FFFF00"
+        android:text="Start"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/swp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="189dp"
+        android:background="#FFFF00"
+        android:text="Pause"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/swr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:background="#FFFF00"
+        android:text="Reset"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+</RelativeLayout>
