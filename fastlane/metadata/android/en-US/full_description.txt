@@ -1,0 +1,11 @@
+⏰ MoClock - A fairly basic clock app.
+
+⏲ ️ A basic clock down to the second.
+
+⌛ A settable timer.
+
+⏱ ️ A limited stopwatch.
+
+🗂 Modern design with bottom navigation.
+
+💾 Small size.
