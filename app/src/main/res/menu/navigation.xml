@@ -8,10 +8,10 @@
         android:title="Clock" />
     <item
         android:id="@+id/naavigation_timer"
-        android:icon="@drawable/ic_timer_black_24dp"
-        android:title="Timer"/>
+        android:icon="@drawable/ic_timer_sand_empty"
+        android:title="Timer" />
     <item
         android:id="@+id/naavigation_stopwatch"
-        android:icon="@drawable/ic_timelapse_black_24dp"
+        android:icon="@drawable/ic_timer_black_24dp"
         android:title="Stopwatch" />
 </menu>

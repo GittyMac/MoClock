@@ -3,6 +3,7 @@ package com.lako.moclock;
 import android.app.Service;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;

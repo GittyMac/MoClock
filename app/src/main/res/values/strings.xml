@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MoClock</string>
+    <string name="channel_namestop">Stopwatch</string>
+    <string name="channel_descriptionstop">This is the stopwatch MoClock uses, disabling this will disable the stopwatch from being controlled and visible outside of the app.</string>
 </resources>

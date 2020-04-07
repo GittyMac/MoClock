@@ -89,8 +89,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_refresh_black_24dp" />
-                            <entry key="sourceFile" value="C:\Users\Lako" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_timer_sand_empty" />
+                            <entry key="sourceFile" value="C:\Users\Lako\Downloads\timer-sand-empty.svg" />
                           </map>
                         </option>
                       </PersistentState>

@@ -1,60 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#212121">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:paddingTop="45dp"
-        android:text="Stopwatch"
-        android:textColor="@android:color/white"
-        android:textSize="35dp"
-        android:textStyle="bold" />
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
     <Chronometer
         android:id="@+id/chronometert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textStyle="bold"
-        android:textSize="60sp"
-        android:textColor="@android:color/white"/>
-
-    <Button
-        android:id="@+id/sws"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="260dp"
-        android:background="#FFFF00"
-        android:text="Start"
-        android:textColor="@android:color/black"
-        android:textStyle="bold" />
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/swp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/swp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="189dp"
-        android:background="#FFFF00"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/open_sans_bold"
         android:text="Pause"
-        android:textColor="@android:color/black"
         android:textStyle="bold"
-        android:visibility="invisible"/>
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/swr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chronometert" />
+
+    <Button
+        android:id="@+id/sws"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:text="Start"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/swp"
+        app:layout_constraintTop_toTopOf="@+id/swp" />
 
     <Button
         android:id="@+id/swr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="123dp"
-        android:background="#FFFF00"
+        android:layout_marginBottom="203dp"
         android:text="Reset"
-        android:textColor="@android:color/black"
         android:textStyle="bold"
-        android:visibility="invisible"/>
-</RelativeLayout>
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/sws"
+        app:layout_constraintTop_toBottomOf="@+id/swp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="232dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="151dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Stopwatch"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/chronometert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

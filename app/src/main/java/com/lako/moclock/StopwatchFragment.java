@@ -1,21 +1,27 @@
 package com.lako.moclock;
 
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.NotificationCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Chronometer;
 import android.view.View.OnClickListener;
+import android.widget.RemoteViews;
 
 import static android.view.View.*;
 
 public class StopwatchFragment extends Fragment {
 
+    private static final String STOPW = "Stopwatch";
     private Chronometer chronometer;
     private boolean running;
     private long pauseOffset;
@@ -75,7 +81,6 @@ public class StopwatchFragment extends Fragment {
     running = false;
 }
     }
-
     public void resetChronometer(View v){
     chronometer.setBase(SystemClock.elapsedRealtime());
     sws.setVisibility(VISIBLE);
