@@ -1,0 +1,2 @@
+Fixed "Set Timer" color in light theme
+Fixed orientation to potrait

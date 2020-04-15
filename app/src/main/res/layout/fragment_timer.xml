@@ -36,7 +36,7 @@
         android:maxLength="4"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textColorHint="@android:color/white"
+        android:textColorHint="@color/black"
         android:textSize="60sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
