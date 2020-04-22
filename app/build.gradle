@@ -6,8 +6,8 @@ android {
         applicationId "com.lako.moclock"
         minSdkVersion 22
         targetSdkVersion 29
-        versionCode 3
-        versionName 'v2.1.1'
+        versionCode 4
+        versionName 'v2.1.2'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
