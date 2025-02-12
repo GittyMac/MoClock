@@ -1,7 +1,8 @@
+> [!NOTE]
+> MoClock has been archived as of Feburary 12, 2025.
+
 # MoClock
 ![MoClock](https://labs-public-dl.xda-cdn.com/images/fad7f676-b7c2-414a-81b3-7ef494c3c1db.png "MoClock")
-
-### [Get it on XDA Labs!](https://labs.xda-developers.com/store/app/com.lako.moclock)
 
 MoClock is a small, minimal clock app.
 
